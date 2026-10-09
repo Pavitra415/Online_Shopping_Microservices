@@ -155,7 +155,8 @@ The order is successfully created after the Order Service communicates with the 
 
 Five workload levels were tested with different concurrency levels. Each workload used 500 requests.
 
-![Workload Results](Outputs/workload.png)
+![Workload Results]<img width="1219" height="364" alt="image" src="https://github.com/user-attachments/assets/883999c2-207f-4531-9d23-3507679d697d" />
+
 
 ### Overall Result
 
@@ -168,19 +169,23 @@ Five workload levels were tested with different concurrency levels. Each workloa
 
 ### 1. Concurrent Requests vs Response Time
 
-![Response Time](Outputs/1_response_time.png)
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/e7e19823-1857-45e2-8d57-7797619a6d09" />
+
 
 ### 2. Concurrent Requests vs Throughput
 
-![Throughput](Outputs/2_throughput.png)
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/c9d9e464-0abd-4ffb-9d3b-c4bab9fbd26f" />
+
 
 ### 3. Concurrent Requests vs CPU Utilization
 
-![CPU Utilization](Outputs/3_cpu_utilization.png)
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/b80b6fd2-9a3c-45cb-9148-50f39d9e665e" />
+
 
 ### 4. Concurrent Requests vs Memory Usage
 
-![Memory Usage](Outputs/4_memory_usage.png)
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/37ff5ac6-af88-4878-8388-0d25fd4dcabd" />
+
 ## Performance Analysis
 - Throughput increased as concurrency increased.
 - Response time increased at higher workload levels.
